@@ -9,9 +9,7 @@ int main() {
 
     cout << "Enter your favorite numbers between 1 and 100: "; // << insertion operator
 
-    cin >> favNum; // >> extraction operator
-
-    cin >> favNums;
+    cin >> favNum >> favNums;
 
     cout << "Amazing!! That's my favorite number too!";
 

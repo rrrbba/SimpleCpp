@@ -1,10 +1,10 @@
 #include <iostream>
 
-int sec1() {
+int main() {
 
     int favNum;
 
-    std::cout << "Enter your favorite number between 1 and 100: ";
+    std::cout << "Enter your favorite number between 1 and 100: "; // << insertion operator
 
     std::cin >> favNum;
 

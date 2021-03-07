@@ -1,12 +1,12 @@
-#include <iostream>
+#include <iostream> // #include preprocessor directive
 
-int main() {
+int sec1() {
 
     int favNum;
 
     std::cout << "Enter your favorite number between 1 and 100: "; // << insertion operator
 
-    std::cin >> favNum;
+    std::cin >> favNum; // >> extraction operator
 
     std::cout << "Amazing!! That's my favorite number too!";
 

@@ -12,3 +12,4 @@ int main() {
 
     return 0; //return 0 if everything is good
 }
+//changed name from main to new one so I could run sec1 function

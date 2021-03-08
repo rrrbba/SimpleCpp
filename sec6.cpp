@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int sec6(){
     //Calculate the area of a room in square feet
     int roomLength {0};
     int roomWidth {0};

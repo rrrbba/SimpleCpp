@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+int sec6p2(){
     cout << "Size of information" << endl;
     cout << "====================" << endl;
 

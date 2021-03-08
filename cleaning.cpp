@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int cleaning(){
     //Make program for cleaning service
     int number_of_rooms {0};
     const double price_per_room {30.0};

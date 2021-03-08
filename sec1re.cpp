@@ -2,7 +2,7 @@
 
 using namespace std; //Use the entire std namespace
 
-int main() {
+int sec1re() {
 
     int favNum;
     int favNums;

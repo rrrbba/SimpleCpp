@@ -3,4 +3,4 @@ project(SimpleCpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(SimpleCpp main.cpp sec1.cpp sec1re.cpp)
+add_executable(SimpleCpp main.cpp sec1.cpp sec1re.cpp sec6.cpp)

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+int multiArray() {
   //Declaring multi-dimensional arrays
   //type name [dimension1_size] [dimension2_size]
   int movie_rating [3][4]; //3 rows, 4 columns...total size is 12 integers

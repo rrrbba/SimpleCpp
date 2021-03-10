@@ -3,9 +3,9 @@
 
 using namespace std;
 
-int main() {
+int sec7() {
     //Declaring arrays (fixed sized)
-    //type name [number of elements]
+    //type name [number of elements] {initializing the elements}
     int test_scores [5] {100, 95, 99, 87, 88};
 
     cout << "First score at index 0: " << test_scores[0] << endl;
@@ -14,6 +14,7 @@ int main() {
 
     const long days_in_year {365};
     double hi_temps [days_in_year] {0}; //init all to zero
+
 
     int another_array [] {1, 2, 3, 4, 5}; // size automatically calculated
 

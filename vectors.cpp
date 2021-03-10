@@ -22,9 +22,14 @@ int main() {
     //Accessing vector elements using vector syntax
     cout << vowels2.at(0) << endl;
     //Changing elements
-    cin >> vowels2.at(9);
+    cin >> vowels2.at(4);
 
     //When do vectors grow as needed? Using push_back where vector automatically allocate the required space
+    vector <int> test_scores3 {100, 95, 99};
+    cout << "Test_scores3: " << test_scores3[2] << endl;
+    test_scores3.push_back(80); // 100, 95, 99, 80
+    test_scores3.push_back(89); // 100, 95, 99, 80, 89
+    cout << "Test_scores3: " << test_scores3[3] << endl;
 
     return 0;
 }

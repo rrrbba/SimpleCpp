@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int arrays() {
 
     char vowels[] {'a','e','i','o','u'};
     cout << "The first vowel is: " << vowels[0] << endl;

@@ -20,6 +20,12 @@ int main() {
   cin >> movie_rating [1] [2];
   cout << movie_rating [1][2];
 
+  int movie_ratingTwo [3][4]
+  {
+          {0, 4, 3, 5},
+          {2, 3, 3, 5},
+          {1, 4, 4, 5}
+  };
 
 
   return 0;

@@ -45,6 +45,15 @@ int main() {
     cout << test_scores3.at(4) << endl;
     cout << test_scores3.at(5) << endl;
 
+    //Example of 2D-vector (a vector of vectors)
+    vector <vector<int>> movies //vector of integers
+            {
+                    {1, 2, 3, 4},
+                    {1, 2, 4, 4},
+                    {1, 3, 4, 5}
+            };
+    //accessing using vector syntax
+    cout << movies.at(0).at(0);
 
     return 0;
 }

@@ -18,3 +18,7 @@
 ##char
 - ex: char middle_initial {'J'}
 - use single quotes
+
+##Arrays
+- No checking to see if you're out of bounds
+- If you go out of bounds, program may have strange behavior/crash

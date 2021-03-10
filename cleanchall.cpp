@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int cleanchall(){
     //Make program for cleaning service
     int small_rooms {0};
     int large_rooms {0};
@@ -33,8 +33,6 @@ int main(){
 
     cout << "Total estimate: $" << ((price_per_sroom * small_rooms) + (price_per_lroom * large_rooms)) + sales_tax * ((price_per_sroom * small_rooms) + (price_per_lroom * large_rooms)) << endl;
     cout << "This estimate is valid for " << estimate_expiry << " days" << endl;
-
-
 
 
     return 0;

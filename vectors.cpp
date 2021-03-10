@@ -2,7 +2,7 @@
 #include <vector> // object oriented template class
 using namespace std; //vector is apart of the standard namespace
 
-int main() {
+int vectors() {
     //Dynamic array = vector. An array that can grow and shrink in size at exec. time
     //can use sort, reverse, find and more
 

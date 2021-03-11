@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int sec7chall() {
     //Declare 2 empty vectors of ints named vector1 and vector2
     vector <int> vector1;
     vector <int> vector2;
